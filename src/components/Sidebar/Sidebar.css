@@ -1,0 +1,23 @@
+.sidebar{
+    align-items: center;
+    padding-top: 10px;
+    width: 17vw;
+    position: fixed;
+    margin-top: 6vh;
+    z-index: 101;
+    padding-top: 4vh;
+    background-color: white;
+    height: 100%;
+}
+
+.sidebar.min{
+    width: 6vw;
+    text-align:center;
+}
+
+.sidebar hr{
+    height: 1px;
+    border: 0;
+    background-color: #ddd;
+    margin: 13px 0;
+}

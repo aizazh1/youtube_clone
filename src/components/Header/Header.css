@@ -1,0 +1,89 @@
+.header *{
+    padding: 0 !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  opacity: 0.98;
+  position: fixed;
+  height: 8vh;
+  width: 100vw;
+  border-bottom: 1px solid #ddd;
+  padding-left: 20px;
+}
+
+.header__right{
+    padding-right: 70px !important;
+}
+
+.header__left{
+    border-bottom: none;
+}
+
+.header__ytlogo {
+  height: 18px;
+  object-fit: contain;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.header__right, .header__left, .header__mid {
+  display: flex;
+  align-items: center;
+}
+
+.header__mid{
+    width: 50vw !important;
+    border: 1px solid lightgray;
+}
+
+.header__mid>input{
+    flex:1;
+    border: none;
+    padding: 5px 10px !important;
+    font-size: 17px;
+}
+
+.header__mid>input:focus{
+    outline-width: 0;
+    border: 1px solid blue;
+}
+
+.header__searchIcon{
+    margin-top: 5px !important;
+}
+
+.header__righticons{
+    margin-right: 20px !important;
+}
+
+.header__righticons:hover{
+    background-color: white !important;
+}
+
+.header__searchIconContainer{
+    height: 30px;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+    padding: 5px;
+    width: 10%;
+    text-align: center;
+}
+
+.header__avatar{
+    background-color: purple !important;
+    height: 30px !important;
+    object-fit: contain;
+    width: 30px !important;
+    font-size: 15px !important;
+}
+
+.header__searchIconContainer:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
