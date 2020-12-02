@@ -25,7 +25,7 @@ const data = [
     title: "How to make Ecommerce website",
     views: "189k",
     timestamp: "1 month ago",
-    url: "https://project-clone-15213.web.app/",
+    url: "https://clone-ecommerce.web.app/",
   },
 ];
 
